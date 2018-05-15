@@ -325,6 +325,7 @@ var config = {
     // Call in numbers and codes
     dialInNumbersUrl: 'https://goo.gl/H9HvsV',
     dialOutCodesUrl: 'https://goo.gl/StnskM',
+    dialInConfCodeUrl: 'https://jitsi-api.jitsi.net/conferenceMapper',
 
     // A list of scripts to load as lib-jitsi-meet "analytics handlers".
     // analyticsScriptUrls: [
