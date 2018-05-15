@@ -168,7 +168,7 @@ var interfaceConfig = {
     /**
      * Specify URL for downloading ios mobile app.
      */
-    // MOBILE_DOWNLOAD_LINK_IOS: 'https://itunes.apple.com/us/app/jitsi-meet/id1165103905',
+     MOBILE_DOWNLOAD_LINK_IOS: 'https://itunes.apple.com/us/app/voxo-meet/id1384819082',
 
     /**
      * Specify mobile app scheme for opening the app from the mobile browser.
