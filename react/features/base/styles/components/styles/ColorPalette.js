@@ -18,10 +18,10 @@ export const ColorPalette = {
      * the sake of consistency.
      */
     black: BLACK,
-    blue: '#17A0DB',
-    blueHighlight: '#1081b2',
+    blue: '#6772E5',
+    blueHighlight: '#424770',
     buttonUnderlay: '#495258',
     darkGrey: '#555555',
-    red: '#D00000',
+    red: '#FA0066',
     white: 'white'
 };

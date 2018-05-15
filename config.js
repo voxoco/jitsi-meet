@@ -141,10 +141,10 @@ var config = {
     // disableDesktopSharing: false,
 
     // The ID of the jidesha extension for Chrome.
-    desktopSharingChromeExtId: null,
+    desktopSharingChromeExtId: 'enbobpnfcaohmdnjcpdjphkemkaemlil',
 
     // Whether desktop sharing should be disabled on Chrome.
-    desktopSharingChromeDisabled: true,
+    desktopSharingChromeDisabled: false,
 
     // The media sources to use when using screen sharing with the Chrome
     // extension.
@@ -222,7 +222,7 @@ var config = {
 
     // Whether to use a welcome page or not. In case it's false a random room
     // will be joined when no room is specified.
-    enableWelcomePage: true,
+    enableWelcomePage: false,
 
     // Enabling the close page will ignore the welcome page redirection when
     // a call is hangup.
@@ -322,6 +322,10 @@ var config = {
         // backToP2PDelay: 5
     },
 
+    // Call in numbers and codes
+    dialInNumbersUrl: 'https://goo.gl/H9HvsV',
+    dialOutCodesUrl: 'https://goo.gl/StnskM',
+
     // A list of scripts to load as lib-jitsi-meet "analytics handlers".
     // analyticsScriptUrls: [
     //      "libs/analytics-ga.js", // google-analytics
@@ -329,7 +333,7 @@ var config = {
     // ],
 
     // The Google Analytics Tracking ID
-    // googleAnalyticsTrackingId = 'your-tracking-id-here-UA-123456-1',
+    // googleAnalyticsTrackingId = 'UA-100849147-2',
 
     // Information about the jitsi-meet instance we are connecting to, including
     // the user region as seen by the server.

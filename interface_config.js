@@ -16,18 +16,18 @@ var interfaceConfig = {
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     SHOW_JITSI_WATERMARK: true,
-    JITSI_WATERMARK_LINK: 'https://jitsi.org',
+    JITSI_WATERMARK_LINK: 'https://voxo.co',
 
     // if watermark is disabled by default, it can be shown only for guests
     SHOW_WATERMARK_FOR_GUESTS: true,
-    SHOW_BRAND_WATERMARK: false,
-    BRAND_WATERMARK_LINK: '',
+    SHOW_BRAND_WATERMARK: true,
+    BRAND_WATERMARK_LINK: 'https://storage.googleapis.com/miscdts/watermark.png',
     SHOW_POWERED_BY: false,
-    SHOW_DEEP_LINKING_IMAGE: false,
+    SHOW_DEEP_LINKING_IMAGE: true,
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
-    DISPLAY_WELCOME_PAGE_CONTENT: true,
-    APP_NAME: 'Jitsi Meet',
-    NATIVE_APP_NAME: 'Jitsi Meet',
+    DISPLAY_WELCOME_PAGE_CONTENT: false,
+    APP_NAME: 'VOXO Meet',
+    NATIVE_APP_NAME: 'VOXO Meet',
     LANG_DETECTION: false, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 
@@ -93,7 +93,7 @@ var interfaceConfig = {
     LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
     REMOTE_THUMBNAIL_RATIO: 1, // 1:1
     // Documentation reference for the live streaming feature.
-    LIVE_STREAMING_HELP_LINK: 'https://jitsi.org/live',
+    LIVE_STREAMING_HELP_LINK: 'https://voxo.co/live',
 
     /**
      * Whether the mobile app Jitsi Meet is to be promoted to participants
@@ -116,7 +116,7 @@ var interfaceConfig = {
      * If indicated some of the error dialogs may point to the support URL for
      * help.
      */
-    SUPPORT_URL: 'https://github.com/jitsi/jitsi-meet/issues/new',
+    SUPPORT_URL: 'http://support.voxo.co',
 
     /**
      * Whether the connection indicator icon should hide itself based on
