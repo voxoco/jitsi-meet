@@ -328,13 +328,12 @@ var config = {
     dialInConfCodeUrl: 'https://jitsi-api.jitsi.net/conferenceMapper',
 
     // A list of scripts to load as lib-jitsi-meet "analytics handlers".
-    // analyticsScriptUrls: [
-    //      "libs/analytics-ga.js", // google-analytics
-    //      "https://example.com/my-custom-analytics.js"
-    // ],
+    analyticsScriptUrls: [
+          "libs/analytics-ga.js" // google-analytics
+    ],
 
     // The Google Analytics Tracking ID
-    // googleAnalyticsTrackingId = 'UA-100849147-2',
+    googleAnalyticsTrackingId: 'UA-100849147-2',
 
     // Information about the jitsi-meet instance we are connecting to, including
     // the user region as seen by the server.
