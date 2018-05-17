@@ -323,8 +323,8 @@ var config = {
     },
 
     // Call in numbers and codes
-    dialInNumbersUrl: 'https://goo.gl/H9HvsV',
-    dialOutCodesUrl: 'https://goo.gl/StnskM',
+    dialInNumbersUrl: 'https://api.myjson.com/bins/kt2we',
+    dialOutCodesUrl: 'https://api.myjson.com/bins/zfxsq',
     dialInConfCodeUrl: 'https://jitsi-api.jitsi.net/conferenceMapper',
 
     // A list of scripts to load as lib-jitsi-meet "analytics handlers".
