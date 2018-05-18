@@ -15,7 +15,7 @@ var interfaceConfig = {
     TOOLBAR_TIMEOUT: 4000,
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Voxipian',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
-    SHOW_JITSI_WATERMARK: true,
+    SHOW_JITSI_WATERMARK: false,
     JITSI_WATERMARK_LINK: 'https://voxo.co',
 
     // if watermark is disabled by default, it can be shown only for guests
@@ -110,7 +110,7 @@ var interfaceConfig = {
      *
      * @type {number}
      */
-    MAXIMUM_ZOOMING_COEFFICIENT: 1.3,
+    MAXIMUM_ZOOMING_COEFFICIENT: 1,
 
     /*
      * If indicated some of the error dialogs may point to the support URL for
