@@ -56,8 +56,7 @@ var interfaceConfig = {
     CONNECTION_INDICATOR_AUTO_HIDE_TIMEOUT: 5000,
     VIDEO_QUALITY_LABEL_DISABLED: false,
     _BACKGROUND_BLUR: 'canvas',
-    MOBILE_DOWNLOAD_LINK_IOS: 'https://itunes.apple.com/us/app/voxo-meet/id1384819082',
-    APP_SCHEME: 'co.voxo.meet'
+    MOBILE_DOWNLOAD_LINK_IOS: 'https://itunes.apple.com/us/app/voxo-meet/id1384819082'
 };
 
 /* eslint-enable no-unused-vars, no-var, max-len */
