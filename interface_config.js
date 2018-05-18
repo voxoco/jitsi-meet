@@ -13,7 +13,7 @@ var interfaceConfig = {
     DESKTOP_SHARING_BUTTON_DISABLED_TOOLTIP: null,
     INITIAL_TOOLBAR_TIMEOUT: 20000,
     TOOLBAR_TIMEOUT: 4000,
-    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Voxipian',
+    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow VOXipian',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     SHOW_JITSI_WATERMARK: false,
     JITSI_WATERMARK_LINK: 'https://voxo.co',
@@ -21,7 +21,7 @@ var interfaceConfig = {
     // if watermark is disabled by default, it can be shown only for guests
     SHOW_WATERMARK_FOR_GUESTS: true,
     SHOW_BRAND_WATERMARK: true,
-    BRAND_WATERMARK_LINK: 'https://storage.googleapis.com/miscdts/watermark.png',
+    BRAND_WATERMARK_LINK: 'https://meet.voxo.co/images/watermark.png',
     SHOW_POWERED_BY: false,
     SHOW_DEEP_LINKING_IMAGE: true,
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
@@ -168,12 +168,12 @@ var interfaceConfig = {
     /**
      * Specify URL for downloading ios mobile app.
      */
-     MOBILE_DOWNLOAD_LINK_IOS: 'https://itunes.apple.com/us/app/voxo-meet/id1384819082',
+    MOBILE_DOWNLOAD_LINK_IOS: 'https://itunes.apple.com/us/app/voxo-meet/id1384819082',
 
     /**
      * Specify mobile app scheme for opening the app from the mobile browser.
      */
-    // APP_SCHEME: 'org.jitsi.meet'
+    APP_SCHEME: 'co.voxo.meet'
 };
 
 /* eslint-enable no-unused-vars, no-var, max-len */

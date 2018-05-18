@@ -329,7 +329,7 @@ var config = {
 
     // A list of scripts to load as lib-jitsi-meet "analytics handlers".
     analyticsScriptUrls: [
-          "libs/analytics-ga.js" // google-analytics
+        'libs/analytics-ga.js' // google-analytics
     ],
 
     // The Google Analytics Tracking ID
