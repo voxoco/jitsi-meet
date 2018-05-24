@@ -34,10 +34,10 @@ var config = {
     dialInNumbersUrl: 'https://api.myjson.com/bins/kt2we',
     dialOutCodesUrl: 'https://api.myjson.com/bins/zfxsq',
     dialInConfCodeUrl: 'https://jitsi-api.jitsi.net/conferenceMapper',
-    analyticsScriptUrls: [
-        'libs/analytics-ga.js'
-    ],
-    googleAnalyticsTrackingId: 'UA-119823589-1',
+    //analyticsScriptUrls: [
+    //    'libs/analytics-ga.js'
+    //],
+    //googleAnalyticsTrackingId: 'UA-119823589-1',
     deploymentInfo: {
     }
 };
