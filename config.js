@@ -37,7 +37,7 @@ var config = {
     analyticsScriptUrls: [
         'libs/analytics-ga.js'
     ],
-    googleAnalyticsTrackingId: 'UA-100849147-2',
+    googleAnalyticsTrackingId: 'UA-119823589-1',
     deploymentInfo: {
     }
 };
